@@ -52,6 +52,10 @@ int main()
 			pita.tmp = 0;
 		}
 	}
+	else 
+	{
+		printf("Please enter the positive integer");
+	}
 	
 	pow(pita.num[0], pita.num[1], pita.num[2]);
 	return 0;
